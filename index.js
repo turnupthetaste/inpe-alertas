@@ -1,10 +1,10 @@
 // index.js
 
 function classificarAlerta(valor) {
-  if (valor >= 90) return "Crítico";
-  if (valor >= 70) return "Alto";
-  if (valor >= 50) return "Médio";
-  return "Baixo";
+  if (valor >= 90) return 'Crítico';
+  if (valor >= 70) return 'Alto';
+  if (valor >= 50) return 'Médio';
+  return 'Baixo';
 }
 
 function enviarNotificacao(status) {
